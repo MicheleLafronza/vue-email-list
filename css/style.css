@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 60%;
+}
+
+
+.title-center {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list-container {
+    width: 50%;
+    margin: 20px auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
+    background-color: gainsboro;
+    border: 1px solid grey;
+}
