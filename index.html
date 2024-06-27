@@ -19,7 +19,9 @@
 
         <div class="list-container">
             <ul>
-                <li></li>
+                <li v-for="(Email,index) in EmailLists" :key="index" v-show="EmailLists.length === 10">
+                    {{Email}}
+                </li>
             </ul>
         </div>
     
